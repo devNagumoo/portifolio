@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Souza Santos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+
+<style>
+    .section-title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 800;
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        border-bottom: 3px solid #9c27b0;
+    }
+
+    .container-content-about {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .content-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .img-about img {
+        width: 100%;
+        max-width: 400px;
+        /* evita que a imagem fique enorme */
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+
+    .img-about img {
+        width: 100%;
+    }
+
+    .content-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 15px;
+        border: 1px solid #e3e6f0;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        background-color: #DDDDDD
+    }
+
+    #about {
+        margin-top: 50px;
+    }
+
+
+    .title-about-me {
+        display: flex;
+        width: 100%;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .title-about-me p {
+        line-height: 1.6;
+        color: #555;
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+
+
+
+    .skills-about {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+    }
+
+    .skills-about-content {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .skills {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        justify-content: center;
+        background-color: #CCCCCC;
+        padding: 15px;
+        border-radius: 10px;
+        transition: transform 0.5s ease;
+    }
+
+
+    .skills-about-content i {
+        font-size: 3.5rem;
+    }
+
+    .skills-about-content img {
+        width: 70px;
+    }
+
+    .skills:hover {
+        transform: scale(1.1);
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="container-sidebar">
+            <div class="sidebar-content">
+                <div class="logo-sidebar">
+                    <div class="logo-img">
+                        
+                    </div>
+                </div>
+
+                <div class="sidebar-main">
+                    <a href="">Home</a>
+                    <a href="#about">Sobre mim</a>
+                    <a href="">Projetos</a>
+                    <a href="">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="hero-left">
+            <div class="social-midias">
+                <div class="social-midias-icons">
+                    <i style="color: black;" class="fa-brands fa-github"></i>
+                    <i style="color: black;" class="fa-brands fa-twitter"></i>
+                    <i style="color: black;" class="fa-brands fa-linkedin"></i>
+                    <i style="color: black;" class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-title">
+                <h2>Olá, EU SOU <span class="highlight">GUSTAVO SOUZA</span></h2>
+            </div>
+            <p class="hero-subtitle">Desenvolvedor Web orientado a resultados, criando e gerenciando Sites e Aplicações
+                Web que impulsionam o sucesso do produto.</p>
+        </div>
+    </div>
+
+
+    <section id="about">
+        <div class="section-title">
+            <h2>SOBRE MIM</h2>
+        </div>
+        <div class="container-content-about">
+
+
+            <div class="content-left">
+                <div class="img-about">
+                    <img src="img/WhatsApp Image 2025-08-23 at 15.59.38.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="content-right">
+                <div class="title-about-me">
+                    <h2>QUEM SOU EU</h2>
+                    <p>👋 Oi, eu sou o Gustavo, mas pode me chamar de Nagumo!
+                        Sou um desenvolvedor apaixonado por tecnologia, criatividade e resolver problemas na base do
+                        código.
+
+                        Gosto de transformar ideias em projetos reais — seja um dashboard de finanças, um site cheio de
+                        estilo ou qualquer coisa que ajude alguém de verdade.
+
+                        Estou sempre estudando, experimentando e buscando evoluir, porque acredito que a tecnologia é
+                        feita para aproximar pessoas e abrir caminhos. 🚀</p>
+                </div>
+
+                <div class="skills-about">
+                    <div class="title-about-me">
+                        <h2>MINHAS HABILIDADES</h2>
+                    </div>
+                    <div class="skills-about-content">
+                        <div class="skills">
+                            <img src="img/php.png" alt="">
+                        </div>
+                        <div class="skills">
+                            <img src="img/javascript-svgrepo-com.svg" alt="">
+                        </div>
+                        <div class="skills">
+                            <img src="img/git-svgrepo-com (1).svg" alt="">
+                        </div>
+                        <div class="skills">
+                            <img src="img/mysql-svgrepo-com.svg" alt="">
+                        </div>
+                        <div class="skills">
+                            <img src="img/bootstrap-svgrepo-com.svg" alt="">
+                        </div>
+                        <div class="skills">
+                            <img src="img/html-5-svgrepo-com (1).svg" alt="">
+                        </div>
+                        <div class="skills">
+                            <img src="img/css-3-svgrepo-com (1).svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <div class="section-title">
+            <h2>MEUS PROJETOS</h2>
+        </div>
+    </section>
+</body>
+
+</html>
