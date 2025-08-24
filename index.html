@@ -63,9 +63,6 @@
         flex-direction: column;
         padding: 20px;
         border-radius: 15px;
-        border-left: 2px solid #9c27b0;
-        border-right: 2px solid #9c27b0;
-        
 
     }
 
@@ -91,6 +88,11 @@
         text-align: justify;
     }
 
+    #projects {
+        background-color: #fff;
+         padding: 25px;
+    }
+
 
 
     .skills-about {
@@ -111,7 +113,7 @@
         width: 80px;
         height: 80px;
         justify-content: center;
-        background-color: #CCCCCC;
+        background-color: #fff;
         padding: 15px;
         border-radius: 10px;
         transition: transform 0.5s ease;
@@ -138,9 +140,7 @@
         padding: 10px;
     }
 
-    #projects {
-        padding: 25px;
-    }
+
 
 
     .my-projects {
@@ -170,6 +170,13 @@
     border-radius: 10px;
     border: 1px solid;
 }
+
+.logo {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #9c27b0;
+}
+
 </style>
 
 <body>
@@ -177,13 +184,13 @@
         <div class="container-sidebar">
             <div class="sidebar-content">
                 <div class="logo-sidebar">
-                    <div class="logo-img">
-                        <a href="#" class="logo">&lt GUSTAVO/&gt;</a>
+                    <div class="logo">
+                        <a href="#" class="logo"><i class="fa-solid fa-code"></i></a>
                     </div>
                 </div>
 
                 <div class="sidebar-main">
-                    <a href="">Home</a>
+                    <a class="active" href="">Home</a>
                     <a href="#about">Sobre mim</a>
                     <a href="">Projetos</a>
                     <a href="">Contato</a>
