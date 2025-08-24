@@ -21,7 +21,7 @@
         align-items: center;
         font-weight: 800;
         font-size: 1.3rem;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     .section-title h2 {
@@ -34,19 +34,20 @@
         width: 100%;
         padding: 20px;
         flex-wrap: wrap;
+        border: 1px solid #e3e6f0;
     }
 
     .content-left {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 30%;
     }
 
     .img-about img {
         width: 100%;
         max-width: 400px;
-        border-radius: 10px;
+        border-radius: 20px;
         object-fit: cover;
     }
 
@@ -59,12 +60,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 50%;
+        width: 70%;
         flex-direction: column;
         padding: 20px;
         border-radius: 15px;
-        border: 1px solid #e3e6f0;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+
     }
 
     #about {
@@ -127,6 +127,49 @@
     .skills:hover {
         transform: scale(1.1);
     }
+
+    .container-projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #projects {
+        padding: 25px;
+    }
+
+
+    .my-projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        width: 33%;
+        gap: 20px;
+       
+    }
+
+    .logo-img a {
+        font-size: 2rem;
+        font-weight: 700;
+        color: black;
+        letter-spacing: 3px;
+
+    }
+.img-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: url('img/undraw_page-not-found_6wni.svg') no-repeat center;
+    background-size: contain; 
+    border-radius: 10px;
+    border: 1px solid;
+}
 </style>
 
 <body>
@@ -135,7 +178,7 @@
             <div class="sidebar-content">
                 <div class="logo-sidebar">
                     <div class="logo-img">
-                        
+                        <a href="#" class="logo">&lt GUSTAVO/&gt;</a>
                     </div>
                 </div>
 
@@ -234,6 +277,31 @@
     <section id="projects">
         <div class="section-title">
             <h2>MEUS PROJETOS</h2>
+        </div>
+
+        <div class="container-projects">
+            <div class="my-projects">
+                <h2>Meu Projeto</h2>
+                <div  class="img-project"></div>
+                <p>Em breve...
+                </p>
+            </div>
+
+
+            <div class="my-projects">
+                <h2>Meu Projeto</h2>
+                <div class="img-project"></div>
+                <p>Em breve...
+                </p>
+            </div>
+
+            <div class="my-projects">
+                <h2>Meu Projeto</h2>
+                <div class="img-project"></div>
+                <p>Em breve...
+                </p>
+            </div>
+
         </div>
     </section>
 </body>
