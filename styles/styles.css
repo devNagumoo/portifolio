@@ -70,6 +70,7 @@
         min-height: 100vh;
         background: linear-gradient(180deg, #000 0%, #111 100%);
         padding-top: 100px;
+        
     }
 
     .hero-content {
@@ -173,7 +174,7 @@
     }
 
     .sidebar-main a:hover {
-        color: #b38ed6;
+        color: #9c27b0;
     }
 
     .hero-projects {
